@@ -16,34 +16,31 @@ class ActorSeeder extends Seeder
     public function run()
     {
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
         DB::table('actors')->insert([
-            'name' => Str::random(5),
-        ]);
-        DB::table('actors')->insert([
-            'name' => Str::random(5),
+            'name' => 'Actor - '.Str::random(4),
         ]);
 
 

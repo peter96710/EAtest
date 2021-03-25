@@ -9,8 +9,9 @@ class Actor extends Model
 {
     use HasFactory;
 
+    protected $table = 'actors';
     public function event_actor()
     {
-        return $this->BelongsToMany(Event::class);
+        return $this->hasMany(Event::class);
     }
 }

@@ -17,9 +17,9 @@ class CreateEventsTable extends Migration
             $table->id();
             $table->unsignedInteger('location_id');
             $table->String('name',191);
-            $table->Date('Date');
-            $table->text('Description')->nullable();
-            $table->unsignedInteger('Price');
+            $table->Date('date');
+            $table->text('description')->nullable();
+            $table->unsignedInteger('price');
             $table->timestamps();
             $table->softDeletes();
             $table->foreign('location_id')->references('id')->on('locations')->onDelete('cascade');

@@ -43,6 +43,6 @@ class User extends Authenticatable
 
     public function ticket()
     {
-        return $this->BelongsToMany(Event::class);
+        return $this->hasMany(Event::class);
     }
 }

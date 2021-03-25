@@ -13,12 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('auth/login');
-});
-
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'events'])->name('home')->middleware('auth');;
+Route::get('/', [App\Http\Controllers\HomeController::class, 'events'])->name('index')->middleware('auth');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'events'])->name('home')->middleware('auth');
 Route::get('/events', [App\Http\Controllers\HomeController::class, 'events'])->name('events')->middleware('auth');
-Route::get('/tickets', [App\Http\Controllers\HomeController::class, 'tickets'])->name('tickets')->middleware('auth');
+Route::Post('/ticket/{id}', [App\Http\Controllers\HomeController::class, 'tickets'])->name('tickets')->middleware('auth');

@@ -16,10 +16,10 @@ class Event extends Model
     }
     public function event_actor()
     {
-        return $this->BelongsToMany(Actor::class);
+        return $this->hasMany(Event_Actor::class);
     }
     public function ticket()
     {
-        return $this->BelongsToMany(User::class);
+        return $this->hasMany(Ticket::class);
     }
 }

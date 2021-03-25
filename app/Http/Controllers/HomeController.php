@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Event;
+use App\Models\Event_Actor;
+use App\Models\Ticket;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -27,10 +31,20 @@ class HomeController extends Controller
     }
     public function events()
     {
-        return view('events');
+
+        $events = Event::with('location','event_actor.actor')->get();
+        return view('events',compact('events'));
     }
-    public function tickets()
+
+    public function tickets($id)
     {
-        return view('tickets');
+        $ticket = new Ticket;
+        $ticket->event_id = $id;
+        $ticket->user_id = Auth::id();
+        $ticket->save();
+
+
+        $events = Event::with('location','event_actor.actor')->get();
+        return view('events',compact('events'));
     }
 }

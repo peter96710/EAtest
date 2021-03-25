@@ -16,34 +16,34 @@ class LocationSeeder extends Seeder
     public function run()
     {
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' =>'Budapest - '.Str::random(3),
         ]);
         DB::table('locations')->insert([
-            'name' => Str::random(7),
+            'name' => 'Budapest - '.Str::random(3),
         ]);
 
     }

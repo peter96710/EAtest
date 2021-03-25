@@ -30,6 +30,6 @@ class CreateEventActorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('event__actors');
+        Schema::dropIfExists('event_actors');
     }
 }

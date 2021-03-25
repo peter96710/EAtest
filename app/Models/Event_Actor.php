@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Event_Actor extends Model
 {
     use HasFactory;
+    protected $table = 'event_actors';
 
     protected $fillable = ['event_id', 'actor_id'];
 
