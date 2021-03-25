@@ -11,9 +11,8 @@ class Event extends Model
     use HasFactory;
     use SoftDeletes;
 
-    public function event_location()
-    {
-        return $this->BelongsToMany(Location::class);
+    public function location(){
+        return $this->hasOne(Location::class, 'id', 'location_id');
     }
     public function event_actor()
     {

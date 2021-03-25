@@ -13,7 +13,7 @@ class CreateEventActorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('event__actors', function (Blueprint $table) {
+        Schema::create('event_actors', function (Blueprint $table) {
             $table->id();
             $table->unsignedInteger('event_id');
             $table->unsignedInteger('actor_id');
