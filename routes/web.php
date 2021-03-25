@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'events'])->name('home')->middleware('auth');;
+Route::get('/events', [App\Http\Controllers\HomeController::class, 'events'])->name('events')->middleware('auth');
+Route::get('/tickets', [App\Http\Controllers\HomeController::class, 'tickets'])->name('tickets')->middleware('auth');
