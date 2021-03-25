@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b4e700-dc4c-4af2-8fff-5fd7a999a441" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Event_Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Event_Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_25_000506_create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_25_000506_create_events_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_25_010417_create_event_actors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_25_010417_create_event_actors_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/ActorSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/ActorSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/EventSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/EventSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/LocationSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/LocationSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/events.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tickets.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +171,7 @@
       <workItem from="1616586062659" duration="2047000" />
       <workItem from="1616607064303" duration="1205000" />
       <workItem from="1616629045299" duration="6347000" />
-      <workItem from="1616661538210" duration="17934000" />
+      <workItem from="1616661538210" duration="18862000" />
     </task>
     <servers />
   </component>
