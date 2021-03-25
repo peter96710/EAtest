@@ -5,7 +5,7 @@ Az alábbi parancsokat szükséges lefuttatni az alkalmazás fő könyvtárában
 1. composer install
 2. php artisan key:generate
 3. npm install
-4. npm run
+4. npm run dev
 5. php artisan migrate:fresh --seed
 6. php artisan serve
 
